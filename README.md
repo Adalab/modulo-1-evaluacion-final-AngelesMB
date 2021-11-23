@@ -32,13 +32,13 @@ Interacción:
 <table>
   <tr>
     <td>
-      <img src="./public/assets/images/mobile.png" alt="Mobile version" height="400"/>
+      <img src="./src/images/mobile.png" alt="Mobile version" height="400"/>
     </td>
     <td>
-      <img src="./public/assets/images/tablet.png" alt="Tablet version" height="400"/>
+      <img src="./src/images/tablet.png" alt="Tablet version" height="400"/>
     </td>
     <td>
-      <img src="./public/assets/images/desktop.png" alt="Desktop version" height="400"/>
+      <img src="./src/images/desktop.png" alt="Desktop version" height="400"/>
     </td>
   </tr>
 </table>
