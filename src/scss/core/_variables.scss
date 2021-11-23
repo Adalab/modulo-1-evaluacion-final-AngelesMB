@@ -1,11 +1,12 @@
 // fonts
 $font-main: "Roboto", sans-serif;
 $font-title: "Roboto Slab", serif;
-$font-size-main: 16px;
+$font-size-main: 18px;
 
 // colors
 $color-light: white;
 $color-dark: #999;
+$color-orange: #f26002;
 
 // media queries mixins
 @mixin tablet {
