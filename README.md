@@ -80,4 +80,13 @@ _CSS / Sass_
 - Usar CSS grid para emplazar elementos usando una rejilla.
 - Usar transiciones CSS para dotar de dinamismo a un proyecto web.
 
+**Instalación**
+
+Instala el proyecto con npm
+
+```bash
+  npm install
+  npm start
+```
+
 **¡Al turrón!**
