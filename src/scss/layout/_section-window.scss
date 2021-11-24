@@ -5,6 +5,10 @@
     color: #8ccbea;
     text-transform: capitalize;
     padding: 30px 0 15px;
+    @include tablet {
+      line-height: 2;
+      padding: 30px 0 10px;
+    }
   }
   &__title2 {
     font-family: $font-title;
@@ -12,16 +16,23 @@
     text-transform: capitalize;
     padding: 0 0 15px;
     line-height: 1.25;
+    @include tablet {
+      font-size: 26px;
+      padding: 0 0 30px;
+    }
   }
   &__text {
     color: #4a4a4a;
     line-height: 1.6;
     font-size: $font-size-main;
+    @include tablet {
+      font-size: $font-size-main-tablet;
+    }
   }
   &__button {
     width: 75px;
     height: 45px;
-    margin: 30px 0 45px; 
+    margin: 30px 0 45px;
     background-color: white;
     border: solid 2px $color-orange;
     border-radius: 22px;
@@ -30,6 +41,10 @@
     font-family: inherit;
     color: $color-orange;
     transition: all 0.5s linear;
+    @include tablet {
+      width: 90px;;
+      margin: 30px 0 60px;
+    }
     &:hover {
       background-color: $color-orange;
       color: white;

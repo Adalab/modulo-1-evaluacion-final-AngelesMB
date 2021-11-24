@@ -14,6 +14,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @include tablet {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
   }
   &__copy {
     display: flex;
@@ -22,6 +28,10 @@
     font-size: 14px;
     align-items: center;
     line-height: 2;
+    @include tablet {
+      order: 0;
+      align-items: flex-start;
+    }
   }
   &__heart {
     color: $color-orange;
@@ -34,6 +44,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @include tablet {
+      align-items: flex-start;
+      padding: 0;
+    }
   }
   &__scroll {
     background-color: $color-light;

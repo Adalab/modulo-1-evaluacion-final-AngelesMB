@@ -11,15 +11,26 @@
     font-size: 24px;
     text-transform: capitalize;
     padding: 30px 0 45px;
+    margin: 30px 0 45px;
+    @include tablet {
+      font-size: 26px;
+      margin: 30px 0 0;
+    }
   }
   &__title2 {
     font-family: $font-title;
     font-size: $font-size-main;
     line-height: 1.6;
+    @include tablet {
+      font-size: 24px;
+    }
   }
   &__text {
     font-size: $font-size-main;
     line-height: 1.6;
+    @include tablet {
+      font-size: $font-size-main-tablet;
+    }
   }
   &__wrapper {
     display: grid;
@@ -27,6 +38,10 @@
     grid-template-columns: 60%;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
+    @include tablet {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
   }
   &__article {
     text-align: center;
@@ -43,6 +58,9 @@
     font-family: inherit;
     color: white;
     transition: all 0.5s linear;
+    @include tablet {
+      margin: 60px 0 60px;
+    }
     &:hover {
       background-color: white;
       color: $color-orange;
