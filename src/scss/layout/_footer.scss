@@ -8,7 +8,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 370px;
+    @include desktop {
+      margin: 0 370px;
+    }
   }
   &__links {
     display: flex;
