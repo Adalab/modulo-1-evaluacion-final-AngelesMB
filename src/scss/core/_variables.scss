@@ -19,3 +19,16 @@ $color-orange: #f26002;
     @content;
   }
 }
+
+// animations
+@keyframes footer__button {
+  from {
+    opacity: 0;
+    background-color: $color-orange;
+    transform: scale(2) rotate(-180deg);
+  }
+  to {
+    opacity: 1;
+    background-color: white;
+  }
+}
