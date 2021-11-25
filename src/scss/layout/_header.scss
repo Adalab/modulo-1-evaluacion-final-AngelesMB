@@ -47,16 +47,17 @@
     }
   }
   &__scroll {
+    display: none;
     background-color: $color-light;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 45px;
     @include tablet {
       margin: 30px 0 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     @include desktop {
       margin: 30px 0 13px;

@@ -1,4 +1,10 @@
 .section-window {
+  @include tablet {
+    & .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
   font-family: $font-main;
   &__title1 {
     font-size: 14px;
@@ -23,9 +29,11 @@
     @include tablet {
       font-size: 26px;
       padding: 0 0 30px;
+      order: -1;
     }
     @include desktop {
       font-size: 32px;
+      order: 0;
     }
   }
   &__text {
